@@ -1,0 +1,31 @@
+/* -------------------------------------------- Article Page Styles ---------------------------------------- */
+
+.bl-header .bl-article-about .breadcrumb {
+    background: #ccc3;
+}
+
+.bl-header .bl-article-about .breadcrumb .breadcrumb-item + .breadcrumb-item::before,
+.bl-header .bl-article-about .about p .tle {
+    color: #6c757d;
+}
+
+.bl-header .bl-article-about a {
+    color: #212529;
+}
+
+.bl-header .bl-article-about a .icon-right-big::before {
+    margin-left: 0;
+    transition: transform .5s ease-in-out;
+}
+
+.bl-header .bl-article-about a:hover .icon-right-big::before {
+    transform: translateX(4px);
+}
+
+.bl-article-content {
+    background: #ccc3;
+    min-height: 500px;
+    padding: 30px 40PX;
+    text-align: justify;
+    line-height: 2;
+}

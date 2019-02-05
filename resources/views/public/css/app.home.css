@@ -1,0 +1,77 @@
+/* -------------------------------------------- Home Page Styles ---------------------------------------- */
+
+.bl-home-articles .card-columns {
+    column-gap: 2.25rem;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.bl-home-articles .card {
+    box-shadow: 0 8px 9px -4px #ccc;
+    border: none;
+    margin-bottom: 5rem;
+}
+
+.bl-home-articles .card .card-title,
+.bl-home-articles .card .blockquote-footer {
+    text-transform: uppercase;
+}
+
+.bl-home-articles .card .card-title a,
+.bl-home-articles .card .blockquote-footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bl-home-articles .card .s-describe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bl-home-articles .card .blockquote-footer {
+    font-size: inherit;
+}
+
+.bl-newsletter {
+    padding-bottom: 140px;
+}
+
+.bl-newsletter .nl-p-form {
+    z-index: 1;
+}
+
+.bl-newsletter .nl-form .f-g input, 
+.bl-newsletter .nl-form .f-g button {
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid #212529;
+}
+
+.bl-newsletter .nl-form .f-g input {
+    width: 700px;
+    padding: 25px 35px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.bl-newsletter .nl-form .f-g button {
+    width: 60px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    transition: color, background, ease-in-out .5s;
+}
+
+.bl-newsletter .nl-form .f-g button:hover,
+.bl-newsletter .nl-form .f-g button:focus {
+    color: #fff;
+    border: 4px solid #212529;
+    border-left: none;
+    background: #212529;
+}
